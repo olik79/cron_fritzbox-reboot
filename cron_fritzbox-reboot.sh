@@ -22,7 +22,9 @@ IPS="192.168.137.1
 192.168.137.2
 192.168.137.3"
 
-FRITZUSER=""
+# since maybe v7.0 a user is required for login. The update automatically creates one, so
+# you only have to look into your fritz web interface and get the user named "fritzXXXX"
+FRITZUSER="fritzXXXX"
 FRITZPW="passwort-weboberflaeche"
 
 
